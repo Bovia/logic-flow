@@ -7,7 +7,7 @@ tags:
   - TypeScript
   - Vite
   - 投研
-demoUrl: https://logic-flow.vercel.app
+demoUrl: https://logic-flow-nine.vercel.app
 githubUrl: https://github.com/Bovia/logic-flow
 date: 2026-07
 devices:

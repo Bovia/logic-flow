@@ -16,4 +16,5 @@
 ## 数据模型
 
 - 类型契约：`src/types/index.ts`
-- 说明：`docs/DATA_MODEL.md`
+- 项目说明：`docs/PROJECT.md`
+- 数据模型：`docs/DATA_MODEL.md`

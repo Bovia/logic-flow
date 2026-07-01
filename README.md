@@ -2,6 +2,8 @@
 
 个人投研决策档案工具 — 记录决策逻辑、归因事件、产业链关系，并复盘逻辑胜率。
 
+完整项目说明见 **[docs/PROJECT.md](docs/PROJECT.md)**；Portfolio Hub 展示文案见 **[portfolio.md](portfolio.md)**。
+
 ## 功能
 
 | Tab | 功能 |
@@ -26,7 +28,7 @@
 ## Portfolio Hub 接入
 
 - 根目录 `portfolio.md`（`published: true`）
-- Hub 注册：`portfolio-hub/projects.config.ts` → `slug: logicflow`, `repo: Bovia/logic-flow`
+- Hub 注册：`portfolio-hub/projects.config.ts` → `slug: logic-flow`, `repo: Bovia/logic-flow`
 - iframe 演示：Hub 自动附加 `?embed=1`，无登录门槛
 - 部署：`vercel.json` + `api/quote.js`（生产行情代理）
 
@@ -65,5 +67,7 @@ src/
 
 ## 数据模型
 
+- 项目说明：[`docs/PROJECT.md`](docs/PROJECT.md)
 - 类型定义：[`src/types/index.ts`](src/types/index.ts)
+- 数据模型：[`docs/DATA_MODEL.md`](docs/DATA_MODEL.md)
 - Canvas 文档：[logicflow-data-model](/Users/bovia-pwc/.cursor/projects/Users-bovia-pwc-Desktop-logic-flow/canvases/logicflow-data-model.canvas.tsx)
